@@ -2,11 +2,40 @@
   font-family: Arial, "Helvetica Neue", Arial, Helvetica, sans-serif, sans-serif;
 
 }
-
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: grey;
+  border-top: #4aaaa5 solid 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+.theinnerfoot{
+  width:100%;
+  padding:0 1%;
+  text-align: center;
+  font-weight: 700;
+}
 body {  
   background-image: url('../images/cork-wallet.png');
   background-size: cover;
-  background-position: center;
+  background-position: center; 
+}
+.container{
+  margin:0;
+}
+.row {
+  margin: 0;
 }
 h1, h2, h3, .mylogo {
   font-size: 2em;
@@ -86,30 +115,26 @@ h3 {
   font-size: 1.2em;
 }
 
-.myfoot{
-  position:fixed;
-  bottom: 0px;
-  background-color: grey;
-  text-align: center;
-  padding:.8%;
-  border-top: #4aaaa5 solid 10px;
-  width: 100%;
-}
+
 
 @media screen and (max-width:993px)
 {
   .bigimg{
-    max-width: 256px;
-    max-height: 192px;
+    max-width: 207.36px;
+    max-height: 155.52px;
   }
- .myfoot {
+  .myinset {
+    padding-top:1%;
+  }
+ 
+/* .myfoot {
    position:relative;
    margin-top: 20px;
  } 
- h1, h2, h3 {
+ /*h1, h2, h3 {
    position: relative;
    top:10px;
- }
+ }*/
 
 }
 
