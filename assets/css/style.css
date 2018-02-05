@@ -41,15 +41,15 @@ background-color: #4aaaa5;
 }
 .myinset {
   background-color: #fff;
-  margin-top:5px;
-  margin-bottom:5px; 
+  
+   
 }
 .navbar-default .navbar-nav>li>a:hover {
   padding:20px;
   color: #4aaaa5;
   background-color: transparent;
 }
-  .bigimg {
+.bigimg {
     max-width: 320px;
     max-height: 240px;
     float: left;
@@ -98,6 +98,10 @@ h3 {
 
 @media screen and (max-width:993px)
 {
+  .bigimg{
+    max-width: 256px;
+    max-height: 192px;
+  }
  .myfoot {
    position:relative;
    margin-top: 20px;
