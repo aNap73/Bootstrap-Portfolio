@@ -8,7 +8,6 @@ html {
 }
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
-  
 }
 .footer {
   position: absolute;
@@ -41,14 +40,12 @@ h1, h2, h3, .mylogo {
 
 }
 .mylogo{
-   
-  
-  
-  
-  padding: 7px 15px;
-  color: #ffffff;
-  font-size: 1.5em;
-  background-color: #4aaaa5;
+position: relative;
+padding: 0 10px;
+left: 10%;
+color: #ffffff;
+font-size: 2.3em;
+background-color: #4aaaa5;
 }
 
 .mynavbar {
@@ -56,7 +53,6 @@ h1, h2, h3, .mylogo {
   color: grey;
   background-color: #fff;
   border-bottom: #4aaaa5 solid 1px;
-  padding-left: 1.6%;
   
 }
 .mynavbar:hover {
@@ -88,7 +84,11 @@ h1, h2, h3, .mylogo {
  
   
 
-  
+  .contactimg{
+    max-width: 100px;
+    max-height: 50px;
+    margin-bottom: 10px;
+  }
   .portimg{
     width: 260px;
     height: 140px;
@@ -108,7 +108,6 @@ h1, h2, h3, .mylogo {
 
 h2 {
   font-size: 1.7em;
-  text-align: center;
 }
 h3 {
   font-size: 1.2em;
@@ -137,7 +136,6 @@ h3 {
  } 
  h3{
   width: 260px;
-
   position: relative;
   padding: 0 0 0 5px;  
   top: 136px;
@@ -153,49 +151,25 @@ input, textarea{
   font-size: 1.6em;
 }
 
-
+/*
 .container{
   width: 100%;
   margin-left:2%;
   padding: 0;
 }
-.col {
-  margin: 0;
-  padding: 0;
-}
 .row {
-  
+  width: 100%;
   margin: 0;
   padding: 0;
 }
-
-.contactimg{
-  max-width: 90px;
-  max-height: 40px;
-  margin-bottom: 10px;
-}
-.conwithimgs{
-  width:200px;
-  margin: 0 auto 0 21%;
-}
-button.navbar-toggle.collapsed{
-margin-top: 10px;  
-}
-
+.col {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}*/
 @media screen and (max-width:993px)
 {
- 
-  .myinset{
-    width: 94%;
-  }
-}
-@media screen and (max-width:768px)
-{
-  .mylogo{
-    position: static; 
-    padding-left:1.3%;
-    margin-left: -1.7%;
-  }
+  .mylogo{left: 0;}
   .bigimg{
     max-width: 207.36px;
     max-height: 155.52px;
@@ -212,9 +186,6 @@ margin-top: 10px;
       margin-right:2%;
       padding: 0;
     }  
-    .mynavbar {
-      padding-top: 5px;
-    }
 /* .myfoot {
    position:relative;
    margin-top: 20px;
