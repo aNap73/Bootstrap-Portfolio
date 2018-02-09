@@ -145,6 +145,14 @@ h3 {
   background-color: #4aaaa5;
   color: white;
 }
+.Deusexclassus{
+  top: 0;
+  color:#4aaaa5;
+  background-color: white;
+}
+input, textarea{
+  font-size: 1.6em;
+}
 @media screen and (max-width:993px)
 {
   .bigimg{
