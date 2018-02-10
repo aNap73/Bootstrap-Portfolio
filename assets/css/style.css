@@ -200,7 +200,7 @@ button.navbar-toggle.collapsed{
   background-color: #fff;
   margin: 0;
   padding: 0;
-  margin: .1% 1% 0 1%;
+  margin: .1% 1% 0 0;
   padding: 1% 1% 0 1%; 
 }
 .portinset{
@@ -208,16 +208,24 @@ button.navbar-toggle.collapsed{
 }
 @media screen and (max-width:993px)
 {
-  
+  .myinset{
+    width: 94%;
+    margin: 2%;
+  }
+  .conwithimgs{
+    margin-left: 42%;
+  }
   
 }
 @media screen and (max-width:768px)
 {
   .myinset{
     width: 94%;
+    margin: 2%;
   }
   .mylogo{
-    position: static; 
+    position: static;
+    text-align: center; 
     padding-left:1.3%;
     margin-left: -1.7%;
   }
