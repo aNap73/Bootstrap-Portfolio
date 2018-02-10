@@ -32,6 +32,12 @@ body {
   background-size: cover;
   background-position: center; 
 }
+.container{
+  width: 95%;
+  margin-left:5%;
+  padding: 0;
+  
+}
 
 h1, h2, h3, .mylogo {
   font-size: 2em;
@@ -41,11 +47,8 @@ h1, h2, h3, .mylogo {
 
 }
 .mylogo{
-   
-  
-  
-  
-  padding: 7px 15px;
+  margin-left: 40px;
+  padding: 7px 50px 7px 7px;
   color: #ffffff;
   font-size: 1.5em;
   background-color: #4aaaa5;
@@ -56,7 +59,7 @@ h1, h2, h3, .mylogo {
   color: grey;
   background-color: #fff;
   border-bottom: #4aaaa5 solid 1px;
-  padding-left: 1.6%;
+  padding-left: 0;
   
 }
 .mynavbar:hover {
@@ -69,11 +72,7 @@ h1, h2, h3, .mylogo {
   color: grey;
   background-color: transparent;
 }
-.myinset {
-  background-color: #fff;
-  
-   
-}
+
 .navbar-default .navbar-nav>li>a:hover {
   padding:20px;
   color: #4aaaa5;
@@ -85,9 +84,7 @@ h1, h2, h3, .mylogo {
     float: left;
     margin: 10px;
   }
- 
-  
-
+   
   
   .portimg{
     width: 260px;
@@ -114,10 +111,7 @@ h3 {
   font-size: 1.2em;
 }
 
-.myinset {
-  padding:1%;
-  margin:3%;
-}
+
 .myinput{
   width:90%;
 }
@@ -154,20 +148,8 @@ input, textarea{
 }
 
 
-.container{
-  width: 100%;
-  margin-left:2%;
-  padding: 0;
-}
-.col {
-  margin: 0;
-  padding: 0;
-}
-.row {
-  
-  margin: 0;
-  padding: 0;
-}
+
+
 
 .contactimg{
   max-width: 90px;
@@ -181,29 +163,59 @@ input, textarea{
 button.navbar-toggle.collapsed{
   margin: 10px 20px 10px 0;  
 }
-container{
-  margin: 0;
-  padding-left: 0;
+
+/*
+
+.col-md-8{
+  margin-left: 5%;
+  padding-right: 1%;
 }
+.col-md-3{
+  margin-left: .5%;
+}*/
+
+/*
+.col-md-3{
+  margin: 0;
+  padding: 0;
+  margin-left: .5%;
+}*
 .col-md-5{
-  position: relative;
-  top: -60px;
-  left: 20px;
+  
   width: 260px;
   height: 140px;
   padding: 0;
-  margin: 2% 2% 0 0;
+  margin: 0;
+}*/
+.col-md-5{
+  position: relative; 
+  width: 260px;
+  height: 140px;
+  top: -60px;
+  left: 60px;
+  padding: 0;
+  margin: 1%;
 }
-
+.myinset {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  margin: .1% 1% 0 1%;
+  padding: 1% 1% 0 1%; 
+}
+.portinset{
+  
+}
 @media screen and (max-width:993px)
 {
- 
-  .myinset{
-    width: 94%;
-  }
+  
+  
 }
 @media screen and (max-width:768px)
 {
+  .myinset{
+    width: 94%;
+  }
   .mylogo{
     position: static; 
     padding-left:1.3%;
